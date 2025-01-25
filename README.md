@@ -1,10 +1,13 @@
 # The-Green-Flags
 AI Content Moderation System
 
-Introduction
+About the Project:
+We are currently running this model locally for development and testing purposes. However, we're actively working on deploying it to a website, making it accessible to everyone very soon. Stay tuned for updates!
+
+Introduction:
 This project implements an automated content moderation system that classifies textual content as appropriate or inappropriate for public display. Leveraging machine learning models (LSTM and BERT) and natural language processing techniques, the system analyzes textual data in real-time to provide classification results. Additionally, the project extends its functionality to extract text from images and memes (using Google Cloud Vision API ), enabling classification based on the extracted textual content.
 
-Files Included
+Files Included:
 Data_Preprocessing.ipynb: Jupyter notebook for loading and preprocessing the dataset (hate_offensive_data.csv) to create a new CSV file (preprocessed_data.csv).
 LSTM.ipynb: Jupyter notebook for training and evaluating the LSTM model for text classification using the preprocessed data.
 BERT.ipynb: Jupyter notebook for training and evaluating the BERT model for text classification using the preprocessed data.
