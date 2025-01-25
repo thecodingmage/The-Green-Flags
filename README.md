@@ -17,9 +17,13 @@ Results
 To assess the performance of our classification models, we conducted a comprehensive evaluation using key metrics such as accuracy, precision, recall, and the F1 score. These metrics provide valuable insights into the abilities of classifiers to accurately categorize textual content as either inappropriate or appropriate for public display.
 
 Metric	LSTM	BERT
+
 Accuracy	93.65%	95.62%
+
 Precision	95.97%	97.20%
+
 Recall	96.41%	97.55%
+
 F1 Score	96.19%	97.37%
 
 Through these evaluations, BERT demonstrated superior performance over LSTM, particularly in terms of accuracy, precision, recall, and F1 score. BERT's enhanced capabilities make it the preferred choice for accurate and reliable content moderation tasks.
